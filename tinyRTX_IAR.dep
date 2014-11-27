@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4285346836</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$TOOLKIT_DIR$\inc\io430x14x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tinyRTX_IAR.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\tinyRTX_IAR.d43</file>
+      <file>$PROJ_DIR$\Debug\Exe\tinyRTX_IAR.ulp</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\susr.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\sisd.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uadc.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\uapp.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\srtx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\strc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\susr.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uadc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uapp.pbi</file>
+      <file>$PROJ_DIR$\susr.c</file>
+      <file>$PROJ_DIR$\strc.c</file>
+      <file>$PROJ_DIR$\srtxuser.h</file>
+      <file>$PROJ_DIR$\srtx.h</file>
+      <file>$PROJ_DIR$\sisd.c</file>
+      <file>$PROJ_DIR$\strc.h</file>
+      <file>$PROJ_DIR$\srtx.c</file>
+      <file>$PROJ_DIR$\uadc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\strc.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\srtx.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\sisd.r43</file>
+      <file>$PROJ_DIR$\uapp.h</file>
+      <file>$PROJ_DIR$\uapp.c</file>
+      <file>$PROJ_DIR$\uadc.c</file>
+      <file>$PROJ_DIR$\susr.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 4 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\tinyRTX_IAR.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 11 32 31 30 13 15 16 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\susr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 9 1 27 33 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 9 1 27 33 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\strc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sisd.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 9 1 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 9 1 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\srtx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 9 1 24 36 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 9 1 24 36 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uapp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 9 1 25 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 9 1 25 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uadc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 10 9 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 9 1</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
